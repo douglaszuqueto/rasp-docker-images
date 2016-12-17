@@ -1,0 +1,12 @@
+*:80 {
+
+  root /app
+  log stdout
+  errors stderr
+
+  gzip {
+    level 1
+  }
+  
+}
+
